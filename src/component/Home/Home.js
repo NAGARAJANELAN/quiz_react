@@ -7,7 +7,7 @@ import Gk from "../gk_quiz/Gk";
 import Sports from "../sport_quiz/Sports";
 import Maths from "../maths_quiz/Maths";
 import Login from "../Login";
-import { useSelector,  useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 
 import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 

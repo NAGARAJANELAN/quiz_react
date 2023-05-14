@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
 import { useDispatch, useSelector } from "react-redux";
-import { ADD_USER, UPDATE_SCORE } from "../actionTypes/actionTypes";
+import { ADD_USER } from "../actionTypes/actionTypes";
 import { useNavigate } from 'react-router-dom';
 
 function Login() {

@@ -4,7 +4,7 @@ import { useState } from "react";
 import Data from "./mathsdata";
 
 import { useDispatch, useSelector } from "react-redux";
-import { ADD_USER, UPDATE_SCORE } from "../../actionTypes/actionTypes";
+import {  UPDATE_SCORE } from "../../actionTypes/actionTypes";
 
 const Maths = () => {
   const [questionindex, setQuestionindex] = useState(0);
